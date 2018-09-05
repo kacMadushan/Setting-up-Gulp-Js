@@ -1,0 +1,19 @@
+
+body{
+    background-color: $azure;
+    font-family: $base_font_family;
+    color: $text-color;
+}
+
+h1,
+h2{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+h3,
+h4,
+h5{
+    font-weight: 400;
+    margin-bottom: 0;
+}

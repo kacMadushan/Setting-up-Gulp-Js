@@ -1,0 +1,48 @@
+section{
+    padding: 30px 0;
+}
+.showcase{
+    background: $viking url($showcase-image) no-repeat 26% 38%;
+    height: 460px;
+}
+
+.showcase-title{
+    color: $azure;
+    text-transform: uppercase;
+    margin: 22px 0 10px;
+}
+
+.sub-title{
+    color: $azure;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.info{
+    font-size: 16px;
+    color: $azure;
+    margin: 12px 0;
+}
+
+.section-title{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.headline{
+    color: $navy_dark;
+    margin-bottom: 8px;
+}
+
+.heading-label{
+    background-color: $oyster_bay;
+    padding: 4px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: $viking;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
