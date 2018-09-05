@@ -1,0 +1,18 @@
+{
+  "name": "gulp_get_started",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ka chamika madushan"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
