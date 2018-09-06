@@ -38,11 +38,84 @@ section{
 
 .heading-label{
     background-color: $oyster_bay;
-    padding: 4px 10px;
+    padding: 4px 18px;
     font-size: 14px;
     font-weight: 400;
     color: $viking;
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 20px;
+}
+
+.block-grid{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.blog-img{
+    margin-bottom: 20px;
+}
+
+.post-title{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 20px 0;
+}
+
+.post-info{
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 0 20px;
+}
+
+.overlap-bar{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 15, 15, 0.22);
+    position: absolute;
+    top: 0;
+}
+
+.contact-section{
+    background: url($world-map) no-repeat 87% 72%;
+}
+
+.about-info{
+    width: 100%;
+    height: auto;
+    margin: 22px auto;
+    text-align: center;
+}
+
+.service-block{
+    width: 100%;
+    height: auto;
+    margin: 24px 0;
+    position: relative
+}
+
+.service-block p{
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.service-title{
+    color: $viking;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.icon-box{
+    margin-bottom: 15px;
+    color: $gold_yellow;
+}
+
+.about-footer{
+    color: $text-color;
+    font-size: 13px;
 }

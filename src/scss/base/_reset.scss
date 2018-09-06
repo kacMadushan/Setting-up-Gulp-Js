@@ -3,6 +3,7 @@ body{
     background-color: $azure;
     font-family: $base_font_family;
     color: $text-color;
+    line-height: 1.6;
 }
 
 h1,
@@ -16,4 +17,16 @@ h4,
 h5{
     font-weight: 400;
     margin-bottom: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.mg-bottom{
+    margin-bottom: 20px;
+}
+
+.mg-top{
+    margin-top: 40px;
 }
