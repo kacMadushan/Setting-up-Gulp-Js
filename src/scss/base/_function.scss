@@ -1,3 +1,9 @@
 @mixin  sectionColor($value) {
 
 }
+
+@mixin fontSize($size) {
+    @if($size == 'h1'){
+        font-weight: 700;   
+    }
+}
